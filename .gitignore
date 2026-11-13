@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+_video/
+cadastros/
+app_log.txt
+app_err.txt
+link_app.txt
+qrcode_app.png
+*.webm
+PROMPT_VSCODE.md

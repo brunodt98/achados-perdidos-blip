@@ -1,0 +1,53 @@
+{
+ "01_garrafa.jpg:64134": {
+  "legenda_en": "a photo of a bottle of evan water",
+  "legenda_pt": "uma foto de uma garrafa de água evian",
+  "atributos_en": {
+   "objeto": "water bottle",
+   "cor": "clear",
+   "marca": "evian",
+   "onde": "on table"
+  },
+  "atributos_pt": {
+   "objeto": "Garrafa de água",
+   "cor": "clara",
+   "marca": "evian",
+   "onde": "Em Mesa"
+  },
+  "tempo_s": 147.64
+ },
+ "02_mochila.jpg:270728": {
+  "legenda_en": "a photo of a backpack on a white background",
+  "legenda_pt": "uma foto de uma mochila sobre um fundo branco",
+  "atributos_en": {
+   "objeto": "backpack",
+   "cor": "gray",
+   "marca": "polo",
+   "onde": "on bag"
+  },
+  "atributos_pt": {
+   "objeto": "Mochila",
+   "cor": "cinza",
+   "marca": "polo",
+   "onde": "na sacola"
+  },
+  "tempo_s": 121.69
+ },
+ "03_estojo.jpg:131256": {
+  "legenda_en": "a photo of a pencil case on a white background",
+  "legenda_pt": "uma foto de um estojo sobre um fundo branco",
+  "atributos_en": {
+   "objeto": "purse",
+   "cor": "multicolored",
+   "marca": "unknown",
+   "onde": "on table"
+  },
+  "atributos_pt": {
+   "objeto": "bolsa",
+   "cor": "Multicolore",
+   "marca": "desconhecido",
+   "onde": "Em Mesa"
+  },
+  "tempo_s": 124.21
+ }
+}
