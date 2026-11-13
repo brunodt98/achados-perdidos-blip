@@ -431,7 +431,7 @@ svg .hd{font-size:15px;font-weight:700;letter-spacing:.14em}
 
 
 <!-- ============ 2b NÚMEROS ============ -->
-<section class="slide" data-part="1" data-n="[~35 s] E o tamanho? Somando os três checkpoints, são cerca de 809 milhões de parâmetros e 3,2 gigabytes em disco. Os três usam o mesmo encoder de imagem, um ViT-B/16 de 86 milhões de parâmetros: ele corta a foto de 384 por 384 em 576 quadradinhos. Um só checkpoint do BLIP tem uns 224 milhões, cerca de 780 vezes menos que o GPT-3. Por isso roda num notebook comum, só com CPU, como foi o nosso teste: TEMPO_FALA por cadastro.">
+<section class="slide" data-part="1" data-n="[~35 s] E o tamanho? Somando os três checkpoints, são cerca de 809 milhões de parâmetros e 3,2 gigabytes em disco. Os três usam o mesmo encoder de imagem, um ViT-B/16 de 86 milhões de parâmetros: ele corta a foto de 384 por 384 em 576 quadradinhos. Um só checkpoint do BLIP tem uns 224 milhões, cerca de 780 vezes menos que o GPT-3. Por isso roda num notebook comum, só com CPU, como foi o nosso teste: de um a dois minutos e meio por cadastro.">
   <div class="tag">3 <em>em números</em></div>
   <h2>Pequeno para um foundation model: os três checkpoints rodam num notebook comum, sem GPU</h2>
   <div class="body">
@@ -454,7 +454,7 @@ svg .hd{font-size:15px;font-weight:700;letter-spacing:.14em}
       <div class="kw" style="margin-top:6px">
         <div><b>Imagem</b><span>384 × 384 px → 576 patches de 16 × 16 · 12 camadas, dimensão 768</span></div>
         <div><b>Texto</b><span>12 camadas, dimensão 768 · vocabulário de 30.524 tokens (BERT, só inglês)</span></div>
-        <div class="r"><b>Nosso teste</b><span>CPU Intel i5-1135G7, sem GPU: TEMPO_SLIDE</span></div>
+        <div class="r"><b>Nosso teste</b><span>CPU Intel i5-1135G7, sem GPU: 62 a 170 s por cadastro (legenda + 4 perguntas)</span></div>
       </div>
     </div>
   </div>

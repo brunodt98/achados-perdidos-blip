@@ -49,5 +49,124 @@
    "onde": "Em Mesa"
   },
   "tempo_s": 124.21
+ },
+ "04_fone.jpg:9409": {
+  "legenda_en": "a photo of a pair of headphones",
+  "legenda_pt": "uma foto de um par de fones de ouvido",
+  "atributos_en": {
+   "objeto": "headphones",
+   "cor": "black",
+   "marca": "sony",
+   "onde": "on headphones"
+  },
+  "atributos_pt": {
+   "objeto": "fones de Ouvido",
+   "cor": "preto",
+   "marca": "sony",
+   "onde": "nos fones de ouvido"
+  },
+  "tempo_s": 154.42
+ },
+ "05_chaves.jpg:22812": {
+  "legenda_en": "a photo of two keys with the words safe driving on them",
+  "legenda_pt": "uma foto de duas chaves com as palavras \"direção segura\" nelas",
+  "atributos_en": {
+   "objeto": "key",
+   "cor": "blue",
+   "marca": "keys",
+   "onde": "keychain"
+  },
+  "atributos_pt": {
+   "objeto": "básico",
+   "cor": "azul",
+   "marca": "keys",
+   "onde": "chaveiro"
+  },
+  "tempo_s": 153.4
+ },
+ "07_caderno.jpg:82817": {
+  "legenda_en": "a photo of a book on a table",
+  "legenda_pt": "uma foto de um livro sobre uma mesa",
+  "atributos_en": {
+   "objeto": "book",
+   "cor": "black",
+   "marca": "kodak",
+   "onde": "on desk"
+  },
+  "atributos_pt": {
+   "objeto": "contábil (adj.)",
+   "cor": "preto",
+   "marca": "kodak",
+   "onde": "na mesa"
+  },
+  "tempo_s": 170.23
+ },
+ "08_oculos.jpg:80693": {
+  "legenda_en": "a photo of a pair of glasses on a white background",
+  "legenda_pt": "uma foto de um par de óculos sobre um fundo branco",
+  "atributos_en": {
+   "objeto": "glasses",
+   "cor": "black",
+   "marca": "glasses",
+   "onde": "on table"
+  },
+  "atributos_pt": {
+   "objeto": "óculos",
+   "cor": "preto",
+   "marca": "óculos",
+   "onde": "Em Mesa"
+  },
+  "tempo_s": 108.07
+ },
+ "09_carregador.jpg:104495": {
+  "legenda_en": "a photo of an apple power adapter",
+  "legenda_pt": "uma foto de um adaptador de energia da Apple",
+  "atributos_en": {
+   "objeto": "charger",
+   "cor": "white",
+   "marca": "apple",
+   "onde": "on table"
+  },
+  "atributos_pt": {
+   "objeto": "carregador",
+   "cor": "branco",
+   "marca": "maçã",
+   "onde": "Em Mesa"
+  },
+  "tempo_s": 65.51
+ },
+ "10_bone.jpg:238307": {
+  "legenda_en": "a photo of a blue hat with the scf logo on it",
+  "legenda_pt": "uma foto de um boné azul com o logotipo da SCF",
+  "atributos_en": {
+   "objeto": "hat",
+   "cor": "blue",
+   "marca": "schwinn",
+   "onde": "on table"
+  },
+  "atributos_pt": {
+   "objeto": "chapéu",
+   "cor": "azul",
+   "marca": "Schwinn",
+   "onde": "Em Mesa"
+  },
+  "tempo_s": 62.3
+ },
+ "06_guarda-chuva.jpg:41034": {
+  "legenda_en": "a photo of a black umbrella on a white background",
+  "legenda_pt": "uma foto de um guarda-chuva preto sobre um fundo branco",
+  "atributos_en": {
+   "objeto": "umbrella",
+   "cor": "black",
+   "marca": "chanel",
+   "onde": "on ground"
+  },
+  "atributos_pt": {
+   "objeto": "Guarda-Chuva",
+   "cor": "preto",
+   "marca": "chanel",
+   "onde": "em terra"
+  },
+  "tempo_s": 66.13
  }
 }
