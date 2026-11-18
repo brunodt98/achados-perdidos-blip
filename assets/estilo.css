@@ -69,9 +69,9 @@ h1, h2, h3 { font-family: var(--titulo); letter-spacing: -.02em; color: var(--ti
 /* cadastro e pergunta */
 [data-testid="InputInstructions"] { display: none; }
 [data-testid="stTextInputRootElement"], [data-testid="stTextInputField"] { background: var(--papel); }
-[data-testid="stFileUploaderDropzone"] button { font-size: 0; }
+[data-testid="stFileUploaderDropzone"] button, [data-testid="stFileUploaderDropzone"] button * { font-size: 0; }
 [data-testid="stFileUploaderDropzone"] button::after { content: "Escolher foto"; font-size: .95rem; }
-[data-testid="stFileUploaderDropzoneInstructions"] { font-size: 0; }
+[data-testid="stFileUploaderDropzoneInstructions"], [data-testid="stFileUploaderDropzoneInstructions"] * { font-size: 0; }
 [data-testid="stFileUploaderDropzoneInstructions"]::after { content: "JPG, PNG ou WEBP, até 12 MB"; font-size: .85rem; color: var(--suave); }
 [data-testid="stImage"] img { border-radius: 10px; max-height: 420px; object-fit: contain; background: #fff; }
 [data-testid="stFileUploaderDropzone"] { background: var(--papel); border: 1.5px dashed #BDB4A5; }
