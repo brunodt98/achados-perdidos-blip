@@ -245,11 +245,11 @@ def tela_perguntar():
                 except ValueError as erro:
                     st.error(str(erro))
         else:
-            lista = motor.itens()
-            item = st.selectbox("Objeto", lista, format_func=lambda i: f"{i['titulo']} · #{i['id']}",
-                                label_visibility="collapsed")
-            if item:
-                img, chave = item["_img"], item["id"]
+            por_chave = {i["id"]: i for i in motor.itens()}     # opções simples: itens guardam tensores
+            id_ = st.selectbox("Objeto", list(por_chave), key="p_item", label_visibility="collapsed",
+                               format_func=lambda c: f"{por_chave[c]['titulo']} · #{c}" if c in por_chave else c)
+            if id_ in por_chave:
+                img, chave = por_chave[id_]["_img"], id_
         if img is not None:
             st.image(img, width="stretch")
     with b:
