@@ -481,19 +481,19 @@ svg .hd{font-size:15px;font-weight:700;letter-spacing:.14em}
     </div></div>
 </section>
 <!-- ============ 5 AO VIVO ============ -->
-<section class="slide demo" data-part="2" data-n="[~70 s] Agora é com vocês. Apontem a câmera para o QR code, abram o link e tirem foto de um objeto: garrafa, mochila, estojo, fone. [Esperar uns 30 segundos, mostrar o mural enchendo.] Agora alguém fala o que perdeu, e eu procuro. [Digitar a descrição na aba Procurar.] Se a internet falhar, a aba Vídeo tem o nosso código rodando com fotos de teste, gerado pelo próprio notebook.">
+<section class="slide demo" data-part="2" data-n="[~70 s] Agora é com vocês. Apontem a câmera para o QR code, abram o link e tirem foto de um objeto: garrafa, mochila, estojo, fone. [Esperar uns 30 segundos, mostrar o mural enchendo.] Agora alguém fala o que perdeu, e eu procuro. [Digitar a descrição na aba Achados.] Se a internet falhar, a aba Vídeo tem o nosso código rodando com fotos de teste, gerado pelo próprio notebook.">
   <div class="dh">
     <div><div class="tag" style="margin-bottom:6px">5 <em>ao vivo</em></div><h2>Testem agora: aponte a câmera</h2></div>
     <div class="dtabs nonav"><button class="on" data-pane="live">Ao vivo · QR code</button><button data-pane="vid">Vídeo do teste</button></div>
   </div>
   <div class="dpane on nonav" id="pane-live">
-    <form class="urlbar" id="urlform"><input id="url" type="text" inputmode="url" placeholder="cole aqui o link https://xxxx.gradio.live (impresso pelo python app.py)" autocomplete="off" spellcheck="false"><button type="submit">Conectar</button><a class="btn ghost" id="openext" href="#" target="_blank" rel="noopener">Abrir em nova aba ↗</a></form>
+    <form class="urlbar" id="urlform"><input id="url" type="text" inputmode="url" placeholder="cole aqui o link https://….streamlit.app" autocomplete="off" spellcheck="false"><button type="submit">Conectar</button><a class="btn ghost" id="openext" href="#" target="_blank" rel="noopener">Abrir em nova aba ↗</a></form>
     <div class="live2">
       <div class="qrbox"><div id="qr"><div class="qrfail">O QR code aparece aqui ao conectar o link</div></div><p class="qrl">Aponte a câmera do celular</p><p class="qru" id="qru">—</p></div>
       <div class="frame"><div class="empty" id="empty" style="grid-template-columns:1fr">
-        <div><h3>Como testar</h3><ol><li>No notebook, rode <code>python app.py</code> na pasta do projeto</li><li>Cole o link <code>https://….gradio.live</code> (está em <code>link_app.txt</code>) acima → aparece o QR code</li><li>A turma tira foto de objetos (aba <b>Cadastrar</b>)</li><li>Alguém descreve o que “perdeu” → aba <b>Procurar</b></li></ol>
+        <div><h3>Como testar</h3><ol><li>Abra o app publicado e espere a IA terminar de aquecer</li><li>Cole o link <code>https://….streamlit.app</code> acima → aparece o QR code</li><li>A turma tira foto de objetos (aba <b>Entregar objeto</b>)</li><li>Alguém descreve o que “perdeu” → aba <b>Achados</b></li></ol>
         <p class="warn">O app aparece aqui dentro quando a apresentação é aberta como arquivo <b>.html</b> no navegador. Se o visualizador bloquear, use <b>Abrir em nova aba</b>.</p></div>
-      </div><iframe id="app" title="App Gradio" hidden allow="camera; clipboard-read; clipboard-write"></iframe></div>
+      </div><iframe id="app" title="App Achados" hidden allow="camera; clipboard-read; clipboard-write"></iframe></div>
     </div>
   </div>
   <div class="dpane nonav" id="pane-vid">
@@ -510,7 +510,7 @@ svg .hd{font-size:15px;font-weight:700;letter-spacing:.14em}
     <div data-s="3"><b>O que falta</b><p>Objetos muito parecidos ainda trocam de posição; a busca depende de tradução. Próximo passo: medir com mais fotos reais e testar o BLIP-2.</p></div>
   </div>
   <p class="callback" data-s="3" style="margin-top:50px">A medida da busca (top-1, top-3 e MRR) sai do notebook, seção 6.3, com descrições escritas por nós.</p>
-  <p class="callback" style="margin-top:28px;font-size:15px">Referências: Li et al. (2022), BLIP, ICML · Bommasani et al. (2021) · Abid et al. (2019), Gradio · Hugging Face: Salesforce/blip-image-captioning-base, blip-vqa-base e blip-itm-base-coco</p>
+  <p class="callback" style="margin-top:28px;font-size:15px">Referências: Li et al. (2022), BLIP, ICML · Bommasani et al. (2021) · Hugging Face: Salesforce/blip-image-captioning-base, blip-vqa-base e blip-itm-base-coco</p>
 </section>
 
 

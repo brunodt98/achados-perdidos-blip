@@ -1,11 +1,8 @@
-# Dependências do app Streamlit (é este arquivo que o Streamlit Community Cloud instala).
+# Dependências do app (é este arquivo que o Streamlit Community Cloud instala).
 # torch só para CPU: bem menor que a versão com CUDA.
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch
-transformers>=4.40
-streamlit>=1.38
+torch==2.15.0
+transformers==5.23.0
+streamlit==1.67.0
 pillow
-pandas
-numpy
-requests
 deep-translator
